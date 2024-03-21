@@ -1,0 +1,195 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e2e2; 
+    color: #333; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #5c4a38;
+    color: #e6e2e2;
+    padding: 25px 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e6e2e2;
+    margin-right: 25px;
+}
+header {
+    margin-top: 300px;
+    color: #5c4a38; 
+    text-align: center; 
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 2px solid #8b735b; 
+    border-radius: 10px; 
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h2 {
+    color: #4d4d4d; 
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.empty-button,
+.fill-button {
+    width: 50%; 
+    font-size: 16px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.fill-button {
+    background-color: #5c4a38;
+    color: #e6e2e2;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fill-button:hover {
+    background-color: #e6e2e2;
+    color: #5c4a38;
+}
+
+.empty-button {
+    background-color: #e6e2e2;
+    color: #5c4a38;
+    padding: 10px;
+    border: 2px solid #5c4a38;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.empty-button:hover {
+    background-color: #5c4a38;
+    color: #e6e2e2;
+    border-color: #e6e2e2;
+}
+
+/* Dodaj styl dla przycisków akcji */
+.action-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #375447;
+    border: 1px solid #272f2a;
+    border-radius: 3px;
+}
+
+
+.main-container {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.content-container {
+    flex-grow: 3; 
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    width: 1100px;
+    height: auto;
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 10px; 
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+textarea,
+button,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* styles.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr {
+    margin-bottom: 30px; /* Dodaj odstęp między wierszami */
+}
+
+td {
+    margin-right: 60px; /* Dodaj odstęp między kolumnami */
+}
